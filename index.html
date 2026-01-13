@@ -1,21 +1,29 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Bin2Dec</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <main class="wrap">
-        <label for="binInput">Binary input</label>
-        <input id="binInput" type="text" inputmode="numeric" pattern="[01]*" placeholder="e.g. 1011" />
-        <button id="convertBtn" type="button">Convert</button>
-        <p id="error" aria-live="polite"></p>
-        <div id="output" aria-live="polite"></div>
-        
+      <label for="binInput">Binary input</label>
+      <input
+        id="binInput"
+        type="text"
+        inputmode="numeric"
+        pattern="[01]*"
+        placeholder="e.g. 1011"
+      />
+      <button id="convertBtn" type="button">Convert</button>
+      <p id="error" aria-live="polite"></p>
+      <div id="output" aria-live="polite"></div>
+      <button id="clearBtn" type="button" aria-label="Clear input and output">
+        Clear
+      </button>
     </main>
 
     <script type="module" src="js/main.js"></script>
-</body>
+  </body>
 </html>

@@ -1,5 +1,39 @@
-body{font-family:system-ui,Segoe UI,Roboto,sans-serif;padding:2rem}
-        .wrap{max-width:480px;margin:0 auto;display:grid;gap:.75rem}
-        input[type="text"]{padding:.5rem;font-size:1rem}
-        button{padding:.5rem 1rem;font-size:1rem}
-        #output{padding:.5rem;border:1px solid #ccc;min-height:1.5rem}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, Segoe UI, Roboto, sans-serif;
+  padding: 2rem;
+}
+.wrap {
+  max-width: 480px;
+  margin: 0 auto;
+  display: grid;
+  gap: 0.75rem;
+}
+input[type="text"] {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+input:focus {
+  outline: 2px solid #4f46e5;
+  outline-offset: 2px;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
+
+#error {
+  color: #b00020;
+  font-size: 0.9rem;
+}
+
+#output {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  min-height: 1.5rem;
+}
