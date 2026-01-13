@@ -75,7 +75,7 @@ This structure makes the code easy to reason about and maintain.
 </ul>
 
 ```bash
-git clone https://github.com/yourusername/bin2dec.git
+git clone https://github.com/valentins29/bin2dec.git
 ```
 
 <ul>
